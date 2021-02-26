@@ -1,0 +1,37 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.button {
+  padding: 3% 0 0 0;
+  border: 0;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  outline: 0;
+  vertical-align: middle;
+  font-size: 34px;
+}
+
+.options {
+  width: 30%;
+  box-shadow: 0 10px 30px 1px rgba(0, 0, 0, 0.14);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 8px 12px;
+  transition: 0.15s;
+}
+
+li:hover {
+  background-color: rgba(219, 227, 231, 0.705);
+  cursor: pointer;
+}

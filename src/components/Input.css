@@ -1,0 +1,24 @@
+.input {
+  width: 70%;
+  padding: 1%;
+  margin: auto;
+  display: block;
+  border: 0;
+  border-bottom: 3px solid grey;
+  outline: none;
+  font-size: 24px;
+}
+
+.input:focus {
+  border-bottom: 3px solid rgb(41, 41, 59);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

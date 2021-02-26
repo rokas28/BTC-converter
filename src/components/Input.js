@@ -1,3 +1,4 @@
+import "./Input.css";
 import React, { useContext } from "react";
 import ConverterContext from "../context/ConverterContext";
 
@@ -7,9 +8,15 @@ const Input = () => {
   return (
     <div>
       <input
+        className="input"
         type="number"
         value={state.value}
-        onChange={(e) => updateBtcValue(e.target.value)}
+        onChange={(e) => {
+          return e.target.value < 0
+            ? updateBtcValue(e.target.value * -1)
+            : updateBtcValue(e.target.value);
+        }}
+        placeholder="0"
       />
     </div>
   );

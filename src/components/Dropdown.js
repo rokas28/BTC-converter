@@ -1,4 +1,6 @@
+import "./Dropdown.css";
 import React from "react";
+import { FiPlus } from "react-icons/fi";
 
 class Dropdown extends React.Component {
   ref = React.createRef();
@@ -44,7 +46,7 @@ class Dropdown extends React.Component {
           className="button"
           onClick={() => this.setState({ open: !this.state.open })}
         >
-          +
+          <FiPlus />
         </button>
         {showList}
       </div>
