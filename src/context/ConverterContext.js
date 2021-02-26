@@ -11,6 +11,10 @@ const converterReducer = (state, action) => {
       return { ...state, currencies: action.payload };
     case "ADD_ERR":
       return { ...state, errMessage: action.payload };
+    case "ADD_PRICE_FIELD":
+      return { ...state, priceFields: [...state.priceFields, action.payload] };
+    case "REMOVE_PRICE_FIELD":
+      return { ...state, priceFields: action.payload };
     default:
       return state;
   }
@@ -37,8 +41,24 @@ export const ConverterProvider = ({ children }) => {
     }
   };
 
+  const addPriceField = (priceField) => {
+    dispatch({ type: "ADD_PRICE_FIELD", payload: priceField });
+  };
+
+  const removePriceField = (priceField) => {
+    dispatch({ type: "REMOVE_PRICE_FIELD", payload: priceField });
+  };
+
   return (
-    <ConverterContext.Provider value={{ state, updateBtcValue, fetchBtc }}>
+    <ConverterContext.Provider
+      value={{
+        state,
+        updateBtcValue,
+        fetchBtc,
+        addPriceField,
+        removePriceField,
+      }}
+    >
       {children}
     </ConverterContext.Provider>
   );
