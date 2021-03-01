@@ -35,3 +35,11 @@
 .alert-icon {
   vertical-align: middle;
 }
+
+@media (max-width: 450px) {
+  .app {
+    margin-top: 70px;
+    width: 280px;
+    height: 400px;
+  }
+}

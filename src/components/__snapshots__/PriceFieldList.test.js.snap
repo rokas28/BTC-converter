@@ -1,0 +1,504 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shoud render PriceFieldList with  EUR field with right currency 1`] = `
+<div>
+  <div
+    className="PriceField"
+  >
+    <p>
+      €
+      78,607.1
+    </p>
+    <svg
+      className="close"
+      fill="none"
+      height="1em"
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="18"
+        x2="6"
+        y1="6"
+        y2="18"
+      />
+      <line
+        x1="6"
+        x2="18"
+        y1="6"
+        y2="18"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`shoud render PriceFieldList with GBP and EUR fields with right currencies 1`] = `
+<div>
+  <div
+    className="PriceField"
+  >
+    <p>
+      £
+      67,853.25
+    </p>
+    <svg
+      className="close"
+      fill="none"
+      height="1em"
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="18"
+        x2="6"
+        y1="6"
+        y2="18"
+      />
+      <line
+        x1="6"
+        x2="18"
+        y1="6"
+        y2="18"
+      />
+    </svg>
+  </div>
+  <div
+    className="PriceField"
+  >
+    <p>
+      €
+      78,607.1
+    </p>
+    <svg
+      className="close"
+      fill="none"
+      height="1em"
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="18"
+        x2="6"
+        y1="6"
+        y2="18"
+      />
+      <line
+        x1="6"
+        x2="18"
+        y1="6"
+        y2="18"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`shoud render PriceFieldList with GBP field with right currency 1`] = `
+<div>
+  <div
+    className="PriceField"
+  >
+    <p>
+      £
+      67,853.25
+    </p>
+    <svg
+      className="close"
+      fill="none"
+      height="1em"
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="18"
+        x2="6"
+        y1="6"
+        y2="18"
+      />
+      <line
+        x1="6"
+        x2="18"
+        y1="6"
+        y2="18"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`shoud render PriceFieldList with USD and EUR fields with right currencies 1`] = `
+<div>
+  <div
+    className="PriceField"
+  >
+    <p>
+      $
+      94,630.05
+    </p>
+    <svg
+      className="close"
+      fill="none"
+      height="1em"
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="18"
+        x2="6"
+        y1="6"
+        y2="18"
+      />
+      <line
+        x1="6"
+        x2="18"
+        y1="6"
+        y2="18"
+      />
+    </svg>
+  </div>
+  <div
+    className="PriceField"
+  >
+    <p>
+      €
+      78,607.1
+    </p>
+    <svg
+      className="close"
+      fill="none"
+      height="1em"
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="18"
+        x2="6"
+        y1="6"
+        y2="18"
+      />
+      <line
+        x1="6"
+        x2="18"
+        y1="6"
+        y2="18"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`shoud render PriceFieldList with USD and GBP fields with right currencies 1`] = `
+<div>
+  <div
+    className="PriceField"
+  >
+    <p>
+      $
+      94,630.05
+    </p>
+    <svg
+      className="close"
+      fill="none"
+      height="1em"
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="18"
+        x2="6"
+        y1="6"
+        y2="18"
+      />
+      <line
+        x1="6"
+        x2="18"
+        y1="6"
+        y2="18"
+      />
+    </svg>
+  </div>
+  <div
+    className="PriceField"
+  >
+    <p>
+      £
+      67,853.25
+    </p>
+    <svg
+      className="close"
+      fill="none"
+      height="1em"
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="18"
+        x2="6"
+        y1="6"
+        y2="18"
+      />
+      <line
+        x1="6"
+        x2="18"
+        y1="6"
+        y2="18"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`shoud render PriceFieldList with USD field with right currency 1`] = `
+<div>
+  <div
+    className="PriceField"
+  >
+    <p>
+      $
+      94,630.05
+    </p>
+    <svg
+      className="close"
+      fill="none"
+      height="1em"
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="18"
+        x2="6"
+        y1="6"
+        y2="18"
+      />
+      <line
+        x1="6"
+        x2="18"
+        y1="6"
+        y2="18"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`shoud render PriceFieldList with USD, GBP and EUR fields with right currencies 1`] = `
+<div>
+  <div
+    className="PriceField"
+  >
+    <p>
+      $
+      94,630.05
+    </p>
+    <svg
+      className="close"
+      fill="none"
+      height="1em"
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="18"
+        x2="6"
+        y1="6"
+        y2="18"
+      />
+      <line
+        x1="6"
+        x2="18"
+        y1="6"
+        y2="18"
+      />
+    </svg>
+  </div>
+  <div
+    className="PriceField"
+  >
+    <p>
+      £
+      67,853.25
+    </p>
+    <svg
+      className="close"
+      fill="none"
+      height="1em"
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="18"
+        x2="6"
+        y1="6"
+        y2="18"
+      />
+      <line
+        x1="6"
+        x2="18"
+        y1="6"
+        y2="18"
+      />
+    </svg>
+  </div>
+  <div
+    className="PriceField"
+  >
+    <p>
+      €
+      78,607.1
+    </p>
+    <svg
+      className="close"
+      fill="none"
+      height="1em"
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="18"
+        x2="6"
+        y1="6"
+        y2="18"
+      />
+      <line
+        x1="6"
+        x2="18"
+        y1="6"
+        y2="18"
+      />
+    </svg>
+  </div>
+</div>
+`;
